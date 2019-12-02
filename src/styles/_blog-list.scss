@@ -1,0 +1,16 @@
+.blog-list {
+  // blog roll
+  &-item.is-featured {
+    background-color: #d6400033;
+
+    header {
+      display: flex;
+      margin-bottom: 1em;
+    }
+
+    .featured-thumbnail {
+      flex-basis: 35%;
+      margin: 0 1.5em 0 0;
+    }
+  }
+}

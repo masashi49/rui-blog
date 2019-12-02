@@ -1,0 +1,21 @@
+.navbar {
+
+  &-brand {
+    .navbar-item.logo {
+      padding: 0 1rem
+    }
+  }
+
+  &-item {
+
+    &__text {
+      color: #999;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .icon {
+      color: $primary;
+    }
+  }
+}
