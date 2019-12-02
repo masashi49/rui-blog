@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: "YAMD Blog"
+title: "RUI Blog"
 image: /img/home-jumbotron.jpg
-heading: "YAMD Blog"
+heading: "RUI Blog"
 subheading: Wellcome
 mainpitch:
   title: Why Kaldi
