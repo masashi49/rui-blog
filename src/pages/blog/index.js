@@ -13,14 +13,11 @@ export default class BlogIndexPage extends React.Component {
             backgroundImage: `url('/img/blog-index.jpg')`,
           }}
         >
-          <h1
-            className="has-text-weight-bold is-size-1"
-            style={{
-              boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-              backgroundColor: '#f40',
-              color: 'white',
-              padding: '1rem',
-            }}
+          <h1 className="has-text-weight-bold is-size-1"
+              style={{
+                color: '#ccc',
+                background:'none',
+              }}
           >
             Latest Stories
           </h1>
@@ -28,7 +25,7 @@ export default class BlogIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <BlogRoll />
+              <BlogRoll/>
             </div>
           </div>
         </section>
