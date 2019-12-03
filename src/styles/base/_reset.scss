@@ -32,6 +32,7 @@ tr, th, td {
   margin: 0;
   padding: 0;
   border: 0;
+  word-break: break-all;
 }
 
 article,
@@ -44,13 +45,10 @@ main {
   display: block;
 }
 
-* {
-  box-sizing: border-box;
-}
-
+*,
 *:before,
 *:after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 html{
