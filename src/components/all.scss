@@ -4,8 +4,11 @@
 @import "../styles/base/_reset";
 @import "../styles/layout/_btn";
 @import "../styles/layout/_blog-list";
+@import "../styles/layout/_code";
+@import "../styles/layout/_columns";
 @import "../styles/layout/_icon";
 @import "../styles/layout/_navbar";
+@import "../styles/layout/_notification";
 @import "../styles/layout/_social";
 @import "../styles/layout/_footer";
 @import "../styles/layout/_post-meta";
@@ -18,21 +21,27 @@
   box-shadow: none !important;
 }
 
-.content .taglist {
-  list-style: none;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 1.5rem;
-  margin-top: 1.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-  align-items: center;
+.content {
+  &.is_page-post {
+    background: #fff;
+  }
 
-  li {
-    padding: 0 2rem 1rem 0;
-    margin-bottom: 1.5rem;
-    margin-top: 0;
+  .taglist {
+    list-style: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+
+    li {
+      padding: 0 2rem 1rem 0;
+      margin-bottom: 1.5rem;
+      margin-top: 0;
+    }
   }
 }
 
@@ -53,7 +62,7 @@
 
 .full-width-image {
   width: 100vw;
-  height: 400px;
+  height: 200px;
   background-size: cover;
   background-position: bottom;
   display: flex;

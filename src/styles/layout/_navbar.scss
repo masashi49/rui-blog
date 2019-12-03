@@ -1,15 +1,23 @@
 .navbar {
-
+  background: #2b2523;
   &-brand {
     .navbar-item.logo {
       padding: 0 1rem
     }
   }
 
-  &-item {
+  &-menu{
+    background: #2b2523 !important;
+  }
 
+  &-barger{
+    color: #fff;
+  }
+
+  &-item {
+    color: #b3b3b3;
     &__text {
-      color: #999;
+      color: #fff;
       font-weight: bold;
       font-size: 24px;
     }
