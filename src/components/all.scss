@@ -5,8 +5,10 @@
 @import "../styles/layout/_btn";
 @import "../styles/layout/_blog-list";
 @import "../styles/layout/_code";
+@import "../styles/layout/_column";
 @import "../styles/layout/_columns";
 @import "../styles/layout/_icon";
+@import "../styles/layout/_full-width-image";
 @import "../styles/layout/_navbar";
 @import "../styles/layout/_notification";
 @import "../styles/layout/_social";
@@ -45,30 +47,6 @@
   }
 }
 
-// Helper Classes
-.full-width-image-container {
-  width: 100vw;
-  height: 400px;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin: 2em -50vw;
-  background-size: cover;
-  background-position: bottom;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.full-width-image {
-  width: 100vw;
-  height: 200px;
-  background-size: cover;
-  background-position: bottom;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .margin-top-0 {
   margin-top: 0 !important;

@@ -22,7 +22,7 @@ export const BlogPostTemplate = ({
       <div className="container content is_page-post">
         <div className="columns">
           <article className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+            <h1 className="title is-size-2 has-text-weight-bold is-bold-light has-text-primary">
               {title}
             </h1>
             <p>{description}</p>

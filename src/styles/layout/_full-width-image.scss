@@ -1,0 +1,28 @@
+// Helper Classes
+
+.full-width-image,
+.full-width-image-container {
+  height: 200px;
+}
+
+.full-width-image-container {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin: 2em -50vw;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-width-image {
+  width: 100vw;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
