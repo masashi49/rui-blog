@@ -1,0 +1,19 @@
+.author {
+  text-align: left;
+
+  &-title {
+    margin-bottom: 5px !important;
+  }
+
+  &-thumbnail {
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0 auto 0 0;
+    height: 60px;
+    width: 78px;
+  }
+
+  &-discription {
+    margin-bottom: 5px !important;
+  }
+}
