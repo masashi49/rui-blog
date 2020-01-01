@@ -101,7 +101,7 @@ const Footer = class extends React.Component {
                 target="_blank"
                 href="https://qiita.com/masash49"
               >
-                Qita
+                Qiita
               </a>
             </div>
           </div>
