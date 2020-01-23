@@ -24,7 +24,7 @@ tags:
 npm install --save-dev stats-webpack-plugin 
 
 ```
-続いて、vue.config.jsファイルのconfigureWebpackを次のように変更します。
+続いて、vue.config.jsファイルを次のように変更します。
 
 ```
 const StatsPlugin = require('stats-webpack-plugin');
@@ -61,7 +61,7 @@ const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPl
 
 module.exports = {
   chainWebpack: (config) => {
-    config.plugin("webpack-bundle-analyzer") // 打包分析
+    config.plugin("webpack-bundle-analyzer")
       .use(BundleAnalyzerPlugin)
       .init(Plugin => new Plugin());
   },
@@ -76,7 +76,7 @@ const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPl
 
 module.exports = {
     configureWebpack:{
-        plugins: [new StatsPlugin("stats.json", { // 查看stats
+        plugins: [new StatsPlugin("stats.json", {
             chunkModules: true,
             chunks: true,
             assets: false,
@@ -87,7 +87,7 @@ module.exports = {
         })],
     },
     chainWebpack: (config) => {
-        config.plugin("webpack-bundle-analyzer") // 打包分析
+        config.plugin("webpack-bundle-analyzer")
             .use(BundleAnalyzerPlugin)
             .init(Plugin => new Plugin());
     },
