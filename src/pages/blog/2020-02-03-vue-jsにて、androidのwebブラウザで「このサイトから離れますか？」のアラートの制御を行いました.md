@@ -45,5 +45,7 @@ methods: {
 
 調べてみると意外と簡単にできました。<br>
 
-@naoki_koreedaさんのQiita記事<br>
-[【JavaScript】ページ離脱時に beforeunload でアラート表示、だがカスタムメッセージが設定できない](https://qiita.com/naoki_koreeda/items/bf0f512dbd91b450c671)を参考にさせて頂きました。感謝！
+【JavaScript】離脱時に beforeunload でアラート表示、だがカスタムメッセージが設定できない<br>
+というQiita記事を参考にさせていただきました([こちらです](https://qiita.com/naoki_koreeda/items/bf0f512dbd91b450c671))<br>
+
+感謝!!
